@@ -10,7 +10,7 @@ font-family: 'Open Sans', sans-serif;
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    overflow: hidden;a
+    overflow: hidden;
 }
 .body {
     width: 100%;
@@ -525,7 +525,7 @@ font-family: 'Open Sans', sans-serif;
     position: absolute;
     content: "";
     top: 48%;
-    right: -130px;
+    right: -45px;
     width: 30px;
     height: 50px;
     background-image: url("../img/right-button.svg");
@@ -537,13 +537,21 @@ font-family: 'Open Sans', sans-serif;
     position: absolute;
     content: "";
     top: 48%;
-    left: -130px;
+    left: -45px;
     width: 30px;
     height: 50px;
     background-image: url("../img/left-button.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+}
+@media (min-width: 1400px) {
+    .blog::after{
+        right: -130px;
+    }
+    .blog::before {
+        left: -130px;
+    }
 }
 .blog-item-caption {
     display: block;
