@@ -9,13 +9,13 @@
 </head>
 <body class="body">
 <header class="page-header-custom">
-  <div class="page-header-custom__up-information flex-wrap">
-    <div class="col-xs-6 col-sm-7 col-lg-2">
+  <div class="page-header-custom__up-information flex-wrap justify-content-between">
+    <div class="page-header-custom__logo-wrap col-xs-2 col-sm-6 col-md-4 col-lg-2">
       <a class="logo" href="http://elma.elewise.com">
         <img src="images/logot.svg" class="page-header-custom__logo" alt="elma" width="133" height="33">
       </a>
     </div>
-    <ul class="page-header-custom__cabinet-list list-unstyled col-xs-6 col-sm-5 col-lg-2">
+    <ul class="page-header-custom__cabinet-list list-unstyled col-xs-6 col-sm-5 col-md-6 col-lg-2">
       <li class="page-header-custom__cabinet-item">
         <span class="page-header-custom__cabinet-open-list">Кабинет</span>
         <ul class="page-header-custom__cabinet-hidden list-unstyled">
@@ -31,7 +31,7 @@
         </ul>
       </li>
     </ul>
-    <form class="col-xs-12 col-sm-6 col-md-5" method="get">
+    <form class="page-header-custom__form-search col-xs-12 col-sm-5 col-md-6 col-lg-5" method="get">
       <input class="page-header-custom__search" type="search" name="search" placeholder="Поиск по сайту">
       <span class="page-header-custom__search-icon" aria-label="Поиск">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
@@ -39,11 +39,11 @@
         </svg>
       </span>
     </form>
-    <div class="page-header-custom__user col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-start align-items-start">
+    <div class="page-header-custom__user col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-start align-items-start">
       <img class="page-header-custom__user-image" src="images/User_profile.svg" alt="User" width="42" height="42">
       <div class="page-header-custom__user-wrap d-flex flex-column">
         <a class="page-header-custom__user-link" href="#">Мария Корнилова</a>
-        <p class="page-header-custom__user-company">ООО "Тестовая компания"</p>
+        <p class="page-header-custom__user-company">ООО &laquo;Тестовая компания&raquo;</p>
       </div>
       <div class="page-header-custom__user-profile">
         <a class="page-header-custom__user-profile-link" href="#">Редактировать профиль</a>
@@ -63,7 +63,7 @@
         <a class="page-header-custom__nav-instruments-link" href="#">Активация</a>
       </li>
       <li class="page-header-custom__nav-instruments-item">
-        <a class="page-header-custom__nav-instruments-link" href="#">Закрепление клиетов</a>
+        <a class="page-header-custom__nav-instruments-link" href="#">Закрепление клиентов</a>
       </li>
       <li class="page-header-custom__nav-instruments-item">
         <a class="page-header-custom__nav-instruments-link" href="#">Предоставление прав</a>
@@ -82,7 +82,7 @@
         <a class="page-header-custom__nav-services-link" href="#">Аттестации</a>
       </li>
       <li class="page-header-custom__nav-services-item">
-        <a class="page-header-custom__nav-services-link" href="#">Дэмо версии</a>
+        <a class="page-header-custom__nav-services-link" href="#">Демо-версии</a>
       </li>
       <li class="page-header-custom__nav-services-item">
         <a class="page-header-custom__nav-services-link" href="#">База знаний</a>
@@ -94,7 +94,7 @@
   </nav>
   <section class="news">
     <h2 class="visually-hidden">Новости и события</h2>
-    <ul class="news__list news__list--gold-color d-flex justify-content-between list-unstyled flex-wrap">
+    <ul class="news__list news__list--gold-color news__list--partners d-flex justify-content-between list-unstyled flex-wrap">
       <li class="news__item col-xs-12 col-md-4 d-flex flex-column align-items-start">
         <h3 class="news__item-title">Новая версия</h3>
         <p class="news__item-program-version">3.12.0</p>
@@ -104,10 +104,8 @@
         <a class="news__item-button news__item-button--orange" href="#">Техподдержка</a>
       </li>
       <li class="news__item col-xs-12 col-md-4">
-        <a class="news__item-title news__item-title-link" href="#">
-          <span class="news__item-title news__item-title-link-decoration">Новости</span>
-        </a>
-        <img src="images/news-image.png" class="" alt="News" width="114" height="76">
+        <a class="news__item-title news__item-title-link news__item-title-link--blue-underline" href="#">Новости</a>
+        <img src="images/news-image.png" class="news__img" alt="News" width="114" height="76">
         <a class="news__item-link news__item-link--blue" href="#">Компания ELMA представила свои кейсы на форуме "Архитектура бизнес-процессов банка 2017</a>
       </li>
       <li class="col-xs-12 col-md-4 news__item news__item--orange-color">
@@ -116,13 +114,13 @@
           <img src="images/Vasilisya.png" width="73" height="73" alt="Василиса Белозерова">
           <div class="news__item-wrap-manager-contacts">
             <p class="news__item-manager-name news__item-manager-name--white-color ">Василиса Белозерова</p>
-            <a class="news__item-manager-number" href="tel:+7(3412)23-43-23">+7(3412) 23-43-23</a>
+            <a class="news__item-manager-number" href="tel:+7(3412)23-43-23">+7 (3412) 23-43-23</a>
             <a class="news__item-manager-email" href="mailto:belozerova@elewise.com">belozerova@elewise.com</a>
           </div>
         </div>
-        <p class="news__item-manager-job">Менеджер по работе в партнерами</p>
+        <p class="news__item-manager-job">Менеджер по работе c партнерами</p>
         <p class="news__item-manager-name">Василиса Белозерова</p>
-        <a class="news__item-manager-number" href="tel:+7(3412)23-43-23">+7(3412) 23-43-23</a>
+        <a class="news__item-manager-number" href="tel:+7(3412)23-43-23">+7 (3412) 23-43-23</a>
         <a class="news__item-manager-email" href="mailto:belozerova@elewise.com">belozerova@elewise.com</a>
       </li>
     </ul>
@@ -131,53 +129,51 @@
 <main class="page-main">
   <section class="links-block">
     <h2 class="links-block__title">Ссылки и документы</h2>
-    <ul class="links-block__list list-unstyled d-flex flex-wrap align-content-start links-block__list--partners">
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Личный кабинет</p>
-        <a class="links-block__link" href="#">Спаравка по Личному кабинету</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Клиенты</p>
-        <a class="links-block__link" href="#">Регламент работы с закреплениями</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Информация партнерам</p>
-        <a class="links-block__link" href="#">Партнерский раздел в базе знаний</a>
-        <a class="links-block__link" href="#">ELMAUP for Partners</a>
-        <a class="links-block__link" href="#">Презентации и записи вебинаров</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Партнёрка и маркетинг</p>
-        <a class="links-block__link" href="#">Партнерская программа "Партнеры 2.0"</a>
-        <a class="links-block__link" href="#">Правила использования бренда ELMA в программе "Партнеры 2.0"</a>
-        <a class="links-block__link" href="#">Маркетинговые материалы в формате для печати</a>
-        <a class="links-block__link" href="#">Маркетинговые материалы для размещения на сайте партнера</a>
-        <a class="links-block__link" href="#">Как добавить статью в журнал</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Партнёрка и маркетинг</p>
-        <a class="links-block__link" href="#">Партнерская программа "Партнеры 2.0"</a>
-        <a class="links-block__link" href="#">Правила использования бренда ELMA в программе "Партнеры 2.0"</a>
-        <a class="links-block__link" href="#">Маркетинговые материалы в формате для печати</a>
-        <a class="links-block__link" href="#">Маркетинговые материалы для размещения на сайте партнера</a>
-        <a class="links-block__link" href="#">Как добавить статью в журнал</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
-        <p class="links-block__item-title">Система и поддержка</p>
-        <a class="links-block__link" href="#">Инструкция по установке системы</a>
-        <a class="links-block__link" href="#">Инструкция по обновлению системы</a>
-        <a class="links-block__link" href="#">инструкия по работе на сейте технической поддержки</a>
-        <a class="links-block__link" href="#">онлайн версия справки</a>
-      </li>
-      <li class="links-block__item d-flex flex-column col-xs-12 col-sm-6 col-md-4">
+    <div class="links-block__list  links-block__list--partners list-unstyled d-flex flex-wrap align-content-start links-block__list--partners">
+      <div class="links-block__left-column d-flex flex-column col-sm-6 col-md-4">
+        <div class="links-block__item">
+          <p class="links-block__item-title">Личный кабинет</p>
+          <a class="links-block__link" href="#">Спаравка по Личному кабинету</a>
+        </div>
+        <div class="links-block__item">
+          <p class="links-block__item-title">Клиенты</p>
+          <a class="links-block__link" href="#">Регламент работы с закреплениями</a>
+        </div>
+        <div class="links-block__item">
+          <p class="links-block__item-title">Информация партнерам</p>
+          <a class="links-block__link" href="#">Партнерский раздел в базе знаний</a>
+          <a class="links-block__link" href="#">ELMAUP for Partners</a>
+          <a class="links-block__link" href="#">Презентации и записи вебинаров</a>
+        </div>
+      </div>
+      <div class="links-block__left-column d-flex flex-column col-sm-6 col-md-4">
+        <div class="links-block__item">
+          <p class="links-block__item-title">Партнёрка и маркетинг</p>
+          <a class="links-block__link" href="#">Партнерская программа "Партнеры 2.0"</a>
+          <a class="links-block__link" href="#">Правила использования бренда ELMA в программе "Партнеры 2.0"</a>
+          <a class="links-block__link" href="#">Маркетинговые материалы в формате для печати</a>
+          <a class="links-block__link" href="#">Маркетинговые материалы для размещения на сайте партнера</a>
+          <a class="links-block__link" href="#">Как добавить статью в журнал</a>
+        </div>
+      </div>
+      <div class="links-block__left-column d-flex flex-column col-sm-6 col-md-4">
+        <div class="links-block__item">
+          <p class="links-block__item-title">Система и поддержка</p>
+          <a class="links-block__link" href="#">Инструкция по установке системы</a>
+          <a class="links-block__link" href="#">Инструкция по обновлению системы</a>
+          <a class="links-block__link" href="#">инструкия по работе на сейте технической поддержки</a>
+          <a class="links-block__link" href="#">онлайн версия справки</a>
+        </div>
+      <div class="links-block__item">
         <p class="links-block__item-title">Соцсети</p>
         <a class="links-block__link" href="#">Партнерская группа в фейсбуке</a>
-      </li>
-    </ul>
+      </div>
+      </div>
+    </div>
   </section>
 </main>
 <footer class="page-footer d-flex flex-wrap">
-  <section class="page-footer__left-column col-xs-12 col-sm-6">
+  <section class="page-footer__left-column col-xs-12 col-sm-4 col-md-5">
     <h2 class="visually-hidden">Социальные сети</h2>
     <ul class="page-footer__social-list d-flex justify-content-start list-unstyled">
       <li class="page-footer__social-items">
@@ -191,35 +187,35 @@
       </li>
     </ul>
     <div class="page-footer__link-section">
-      <p class="page-footer__copyright">&copy; 2006-2018 "ELMA"</p>
+      <p class="page-footer__copyright">&copy; 2006-2018 &laquo;ELMA&raquo;</p>
       <a class="page-footer__link" href="">Пользовательское соглашение</a>
       <a class="page-footer__link" href="">Политика конфиденциальности</a>
       <a class="page-footer__link" href="">Карта сайта</a>
     </div>
   </section>
-  <section class="page-footer-custom__right-column col-xs-12 col-sm-6">
+  <section class="page-footer__right-column col-xs-12 col-sm-8 col-md-7">
     <h2 class="visually-hidden">Контакты</h2>
     <ul class="page-footer__number-list d-flex flex-wrap list-unstyled">
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Ижевск</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Москва</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Казань</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item page-footer__number-item--email col-xs-12 col-sm-6 col-lg-4">
+      <li class="page-footer__number-item page-footer__number-item--email col-xs-12 col-sm-6 col-md-4">
         <a class="page-footer__number-link page-footer__number-link--email" href="mailto:elma@elewise.ru">elma@elewise.ru</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Алматы</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Киев</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>

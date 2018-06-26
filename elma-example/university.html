@@ -9,13 +9,13 @@
 </head>
 <body class="body">
 <header class="page-header-custom">
-  <div class="page-header-custom__up-information flex-wrap">
-    <div class="col-xs-6 col-sm-7 col-lg-2">
+  <div class="page-header-custom__up-information flex-wrap justify-content-between">
+    <div class="page-header-custom__logo-wrap col-xs-2 col-sm-6 col-md-4 col-lg-2">
       <a class="logo" href="http://elma.elewise.com">
         <img src="images/logot.svg" class="page-header-custom__logo" alt="elma" width="133" height="33">
       </a>
     </div>
-    <ul class="page-header-custom__cabinet-list list-unstyled col-xs-6 col-sm-5 col-lg-2">
+    <ul class="page-header-custom__cabinet-list list-unstyled col-xs-6 col-sm-5 col-md-6 col-lg-2">
       <li class="page-header-custom__cabinet-item">
         <span class="page-header-custom__cabinet-open-list">Кабинет</span>
         <ul class="page-header-custom__cabinet-hidden list-unstyled">
@@ -31,7 +31,7 @@
         </ul>
       </li>
     </ul>
-    <form class="col-xs-12 col-sm-6 col-md-5" method="get">
+    <form class="page-header-custom__form-search col-xs-12 col-sm-5 col-md-6 col-lg-5" method="get">
       <input class="page-header-custom__search" type="search" name="search" placeholder="Поиск по сайту">
       <span class="page-header-custom__search-icon" aria-label="Поиск">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
@@ -39,11 +39,11 @@
         </svg>
       </span>
     </form>
-    <div class="page-header-custom__user col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-start align-items-start">
+    <div class="page-header-custom__user col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-start align-items-start">
       <img class="page-header-custom__user-image" src="images/User_profile.svg" alt="User" width="42" height="42">
       <div class="page-header-custom__user-wrap d-flex flex-column">
         <a class="page-header-custom__user-link" href="#">Мария Корнилова</a>
-        <p class="page-header-custom__user-company">Университет благородн.....</p>
+        <p class="page-header-custom__user-company">Университет благород....</p>
       </div>
       <div class="page-header-custom__user-profile">
         <a class="page-header-custom__user-profile-link" href="#">Редактировать профиль</a>
@@ -73,7 +73,7 @@
         <a class="page-header-custom__nav-services-link" href="#">Демо-версии</a>
       </li>
       <li class="page-header-custom__nav-services-item">
-        <a class="page-header-custom__nav-services-link" href="#">База знаний</a>&nbsp;и&nbsp;<a class="page-header-custom__nav-services-link" href="#">справка</a>
+        <a class="page-header-custom__nav-services-link" href="#">База знаний</a>&nbsp;и&nbsp; <a class="page-header-custom__nav-services-link" href="#">Справка</a>
       </li>
     </ul>
   </nav>
@@ -100,23 +100,29 @@
 <main class="page-main">
   <section class="links-block links-block--university">
     <h2 class="links-block__title">Учебные материалы</h2>
-    <ul class="links-block__list list-unstyled d-flex flex-wrap">
-      <li class="links-block__item col-xs-12 col-sm-6 col-md-4">
-        <a class="links-block__link" href="#">Учебный план программы</a>
-      </li>
-      <li class="links-block__item col-xs-12 col-sm-6 col-md-4">
-        <a class="links-block__link" href="#">Готовый материал по программе</a>
-      </li>
-      <li class="links-block__item col-xs-12 col-sm-6 col-md-4">
-        <a class="links-block__link" href="#">Презентация курса "Проектирование и автоматизация бизнес-процессов"</a>
-      </li>
-      <li class="links-block__item col-xs-12 col-sm-6 col-md-4">
-        <a class="links-block__link" href="#">Содержание курса занятий (расписание)</a>
-      </li>
-      <li class="links-block__item col-xs-12 col-sm-6 col-md-4">
-        <a class="links-block__link" href="#">Курс практических занятий</a>
-      </li>
-    </ul>
+    <div class="links-block__list list-unstyled d-flex flex-wrap">
+      <div class="links-block__item  links-block--university-left-column col-xs-12 col-sm-6 col-lg-4">
+        <div class="links-block__item">
+          <a class="links-block__link" href="#">Учебный план Программы</a>
+        </div>
+        <div class="links-block__item">
+          <a class="links-block__link" href="#">Содержание курса занятий (расписание)</a>
+        </div>
+      </div>
+      <div class="links-block--university--center-column col-xs-12 col-sm-6 col-lg-4">
+        <div class="links-block__item">
+          <a class="links-block__link" href="#">Готовый материал по программе</a>
+        </div>
+        <div class="links-block__item">
+          <a class="links-block__link" href="#">Курс практических занятий</a>
+        </div>
+      </div>
+      <div class="links-block--university--right-column col-xs-12 col-sm-6 col-lg-4">
+        <div class="links-block__item">
+          <a class="links-block__link" href="#">Презентация курса "Проектирование и автоматизация бизнес-процессов"</a>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="about-partners">
     <h2 class="about-partners__title">О партнерке</h2>
@@ -126,7 +132,7 @@
   </section>
 </main>
 <footer class="page-footer d-flex flex-wrap">
-  <section class="page-footer__left-column col-xs-12 col-sm-6">
+  <section class="page-footer__left-column col-xs-12 col-sm-4 col-md-5">
     <h2 class="visually-hidden">Социальные сети</h2>
     <ul class="page-footer__social-list d-flex justify-content-start list-unstyled">
       <li class="page-footer__social-items">
@@ -140,35 +146,35 @@
       </li>
     </ul>
     <div class="page-footer__link-section">
-      <p class="page-footer__copyright">&copy; 2006-2018 "ELMA"</p>
+      <p class="page-footer__copyright">&copy; 2006-2018 &laquo;ELMA&raquo;</p>
       <a class="page-footer__link" href="">Пользовательское соглашение</a>
       <a class="page-footer__link" href="">Политика конфиденциальности</a>
       <a class="page-footer__link" href="">Карта сайта</a>
     </div>
   </section>
-  <section class="page-footer-custom__right-column col-xs-12 col-sm-6">
+  <section class="page-footer__right-column col-xs-12 col-sm-8 col-md-7">
     <h2 class="visually-hidden">Контакты</h2>
     <ul class="page-footer__number-list d-flex flex-wrap list-unstyled">
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Ижевск</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Москва</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Казань</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item page-footer__number-item--email col-xs-12 col-sm-6 col-lg-4">
+      <li class="page-footer__number-item page-footer__number-item--email col-xs-12 col-sm-6 col-md-4">
         <a class="page-footer__number-link page-footer__number-link--email" href="mailto:elma@elewise.ru">elma@elewise.ru</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Алматы</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
-      <li class="page-footer__number-item col-xs-12 col-lg-4">
+      <li class="page-footer__number-item col-xs-12 col-sm-6 col-md-4">
         <p class="page-footer__number-city">Киев</p>
         <a class="page-footer__number-link" href="tel:+7(3412)93-6693">+7 (3412)93-66-93</a>
       </li>
