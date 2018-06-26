@@ -445,7 +445,7 @@ template {
   width: 200px;
   min-height: 67px;
   left: 0;
-  bottom: -66px;
+  bottom: -61px;
   background-color: white;
   -webkit-box-shadow: 0 2px 2px 1px #cccccc;
           box-shadow: 0 2px 2px 1px #cccccc;
@@ -456,6 +456,9 @@ template {
   display: block;
   padding-left: 15px;
   margin-bottom: 15px;
+}
+.page-header-custom__user-company {
+  display: block;
 }
 .page-header-custom__nav-instruments {
   margin-left: 20px;
@@ -564,6 +567,14 @@ template {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#52acd2), to(#3492c1));
   background-image: linear-gradient(to right bottom, #52acd2, #3492c1);
 }
+.news__list--green-color {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ac94d), to(#54b12a));
+  background-image: linear-gradient(to right bottom, #7ac94d, #54b12a);
+}
+.news__list--gold-color {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f8da18), to(#efb004));
+  background-image: linear-gradient(to right bottom, #f8da18, #efb004);
+}
 .news__item {
   display: block;
   padding: 15px 0;
@@ -577,12 +588,58 @@ template {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#fbd219), to(#fac812));
   background-image: linear-gradient(to right bottom, #fbd219, #fac812);
 }
+.news__item--orange-color {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#eea300), to(#e16500));
+  background-image: linear-gradient(to right bottom, #eea300, #e16500);
+}
 .news__item-title {
   display: block;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: 800;
+}
+.news__item-title--university {
+  color: white;
+  font-weight: normal;
+  font-size: 26px;
+  width: 200px;
+}
+.news__item-title--client-width {
+  width: 210px;
+}
+.news__item-description {
+  color: white;
+  margin-bottom: 20px;
+}
+.news__item-manager {
+  margin-bottom: 25px;
+}
+.news__item-wrap-manager-contacts {
+  padding-left: 20px;
+}
+.news__item-manager-name {
+  margin-bottom: 0;
+}
+.news__item-manager-name--white-color {
+  color: white;
+  font-weight: bold;
+}
+.news__item-manager-name--black-color {
+  color: black;
+  font-weight: bold;
+}
+.news__item-manager-number {
+  display: block;
+  color: black;
+  font-weight: 500;
+}
+.news__item-manager-email {
+  color: white;
+}
+.news__item-manager-job {
+  font-weight: bold;
+  font-size: 16;
 }
 .news__item-title-link {
   position: relative;
@@ -610,7 +667,6 @@ template {
 }
 .news__item-link--blue {
   color: #3f8bc8;
-  width: 203px;
 }
 .news__item-program-version {
   font-size: 45px;
@@ -628,6 +684,15 @@ template {
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
 }
+.news__item-button--orange {
+  background-color: #e17200;
+  color: white;
+}
+.news__item .news__item-button--orange:hover,
+.news__item.news .news__item-button--orange:focus {
+  background-color: #e4801a;
+  color: white;
+}
 .news__item-button:hover,
 .news__item-button:focus {
   text-decoration: none;
@@ -635,12 +700,6 @@ template {
 }
 .news__item-button:active {
   background-color: #cccccc;
-}
-.news__item-button--download {
-  width: 131px;
-}
-.news__item-button--attestation {
-  width: 109px;
 }
 .news__item-date {
   font-weight: 800;
@@ -652,10 +711,29 @@ template {
   font-size: 30px;
   font-weight: 800;
 }
+.links-block__item {
+  margin-bottom: 15px;
+}
+.links-block__item-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
 .links-block__link {
   text-decoration: underline;
   -webkit-text-decoration-color: #c6dbee;
           text-decoration-color: #c6dbee;
+  margin-bottom: 15px;
+}
+.links-block--university {
+  padding-bottom: 0;
+}
+.about-partners {
+  max-width: 603px;
+  margin-bottom: 50px;
+}
+.about-partners__title {
+  font-size: 30px;
+  font-weight: 800;
 }
 .container {
   margin-right: auto;
