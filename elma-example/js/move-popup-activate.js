@@ -1,9 +1,6 @@
 'use strict';
 
-var popupGetLink = document.querySelector('.get-link');
-var popupGenerateLink = document.querySelector('.generate-link');
 var popupActivateForm = document.querySelector('.activate-form');
-
 
 var moveWindow = function (element) {
 
@@ -39,9 +36,5 @@ var moveWindow = function (element) {
 };
 
 (function () {
-  moveWindow(popupGetLink);
-})();
-
-(function () {
-  moveWindow(popupGenerateLink);
+  moveWindow(popupActivateForm);
 })();
