@@ -361,10 +361,12 @@ a {
   margin-left: -2px;
 }
 .page-header-custom__cabinet-list {
+  text-align: right;
   position: relative;
   font-size: 25px;
   text-transform: uppercase;
   margin-right: 14px;
+  padding-right: 55px;
 }
 .page-header-custom__cabinet-open-list {
   position: relative;
@@ -531,6 +533,9 @@ a {
     width: 120px;
     height: 40px;
   }
+  .page-header-custom__up-information .page-header-custom__cabinet-list {
+    padding-right: 0;
+  }
   .page-header-custom__cabinet-open-list {
     display: block;
     font-size: 0;
@@ -557,6 +562,14 @@ a {
   }
   .page-header-custom__cabinet-hidden {
     left: -42px;
+  }
+}
+@media (max-width: 535px) {
+  .page-header-custom__up-information .page-header-custom__logo-wrap {
+    width: 120px;
+  }
+  .page-header-custom__cabinet-list {
+    width: 120px;
   }
 }
 @media (min-width: 770px) and (max-width: 990px) {
