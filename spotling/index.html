@@ -1,0 +1,562 @@
+<!DOCTYPE html><html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>projector</title>
+  <meta name="description" content="A new Yeogurt application">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <!--[if lt IE 11]>
+  <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <!--svg-sprite-generate -d X:/projects/elma-landos/layout/src/_images/svg/ -o X:/projects/elma-landos/layout/src/_images/svg/sprite.svg-->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="display:none" class="visually-hidden">
+    <symbol id="angle-down" viewBox="0 0 15.6 9.2">
+      <path id="Path_23" style="fill:none;stroke-width:2;" d="M0.7,0.7l7.1,7.1l7.1-7.1" class="st0"></path>
+    </symbol>
+    <symbol id="angle-left" viewBox="0 0 54.736 54.736">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 2px;
+          }
+        </style>
+      </defs>
+      <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(-142.088 -2630.793)">
+        <path id="Path_15" data-name="Path 15" d="M-4184.727,4518v37.7h37.7" transform="translate(6323.919 2395.84) rotate(45)" class="cls-1"></path>
+      </g>
+    </symbol>
+    <symbol id="angle-up" viewBox="0 0 15.6 9.2">
+      <path id="Path_23" style="fill:none;stroke-width:2;" d="M14.8,8.5L7.8,1.4L0.7,8.5" class="st0"></path>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 32.333 32.349">
+      <path id="Path_43" data-name="Path 43" d="M27.989,0H4.36A4.363,4.363,0,0,0,0,4.36V27.989a4.363,4.363,0,0,0,4.36,4.36H16.016l.024-11.561H13.033a.718.718,0,0,1-.712-.7L12.3,16.356a.709.709,0,0,1,.712-.712h3v-3.6c0-4.178,2.548-6.457,6.275-6.457h3.054a.714.714,0,0,1,.712.712V9.44a.714.714,0,0,1-.712.712H23.47c-2.026,0-2.421.965-2.421,2.374v3.118H25.5a.709.709,0,0,1,.7.791l-.443,3.727a.71.71,0,0,1-.7.625h-4l-.024,11.561h6.932a4.363,4.363,0,0,0,4.36-4.36V4.36A4.34,4.34,0,0,0,27.989,0Z" class="cls-1"></path>
+    </symbol>
+    <symbol id="logo-mobile-nav" viewBox="0 0 150 18.521">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #ff0;
+          }
+        </style>
+      </defs>
+      <path id="Path_1" data-name="Path 1" d="M5.556,0H0V18.521H5.556V4.816h3.7V18.521h5.556V0H5.556Z" class="cls-1"></path>
+      <path id="Path_2" data-name="Path 2" d="M3940.714,0H3936.7V4.816h4.014V18.521h5.557V4.816h4.011V0h-9.568Z" transform="translate(-3832.539)" class="cls-1"></path>
+      <path id="Path_3" data-name="Path 3" d="M3363.055,2.889V0h-4.332l-3.667,6.673V0H3349.5V18.521h5.556V9.557l4.491,8.964h4.186V15.1l-4.262-6.916Z" transform="translate(-3260.875)" class="cls-1"></path>
+      <path id="Path_4" data-name="Path 4" d="M1872.262,2.889V0h-4.331l-3.67,6.673V0H1858.7V6.718L1855.011,0h-4.331V2.889l3.585,5.3L1850,15.1v3.419h4.189l4.516-9.015v9.015h5.557V9.557l4.49,8.964h4.188V15.1l-4.265-6.916Z" transform="translate(-1801.05)" class="cls-1"></path>
+      <path id="Path_5" data-name="Path 5" d="M2795.557,11.163h4.257V6.348h-4.257V4.816h5.189V0H2790V18.521h11.177V13.706h-5.62Z" transform="translate(-2716.179)" class="cls-1"></path>
+      <path id="Path_6" data-name="Path 6" d="M1251.761,0s.024.151.056.41l-.056-.41h-3.7c-2.879.632-4.316,1.955-5.557,4.7v9a7.555,7.555,0,0,0,5.557,4.816h3.7l.084-1.053c-.039.638-.084,1.053-.084,1.053a9.051,9.051,0,0,0,5.556-4.977V4.816C1256.312,2.3,1254.849.947,1251.761,0Zm-3.7,13.706a34.022,34.022,0,0,0,0-8.89h3.7c-.714,3.588-.505,5.273,0,8.89Z" transform="translate(-1209.625)" class="cls-1"></path>
+      <path id="Path_7" data-name="Path 7" d="M4514.761,0s.024.151.056.41l-.056-.41h-3.7c-2.878.632-4.315,1.955-5.556,4.7v9a7.554,7.554,0,0,0,5.556,4.816h3.7l.084-1.053c-.04.638-.084,1.053-.084,1.053a9.051,9.051,0,0,0,5.557-4.977V4.816C4519.314,2.3,4517.848.947,4514.761,0Zm-3.7,13.706a33.974,33.974,0,0,0,0-8.89h3.7c-.714,3.588-.506,5.273,0,8.89Z" transform="translate(-4386.288)" class="cls-1"></path>
+      <path id="Path_8" data-name="Path 8" d="M660.97,0H652.5V18.521h5.556V15.058h2.913l.037-.46c-.021.291-.037.46-.037.46a9.049,9.049,0,0,0,5.556-4.977V4.818C665.521,2.3,664.057.947,660.97,0Zm-2.913,10.242V4.816h2.913a20.262,20.262,0,0,0,0,5.427Z" transform="translate(-635.235)" class="cls-1"></path>
+      <path id="Path_9" data-name="Path 9" d="M5147.47,0H5139V18.521h5.557V15.058h2.913l.038-.46c-.021.291-.038.46-.038.46a9.048,9.048,0,0,0,5.557-4.977V4.818C5152.021,2.3,5150.558.947,5147.47,0Zm-2.913,10.242V4.816h2.913a20.313,20.313,0,0,0,0,5.427Z" transform="translate(-5003.026)" class="cls-1"></path>
+    </symbol>
+    <symbol id="projector" viewBox="0 0 501.25 61.892">
+      <defs>
+        <style>
+          .fill-yellow {
+            fill: #ff0;
+          }
+        </style>
+      </defs>
+      <g id="Symbol_1_1" data-name="Symbol 1 – 1" transform="translate(-477.75 -192.79)">
+        <path id="Path_1" data-name="Path 1" d="M18.568,0H0V61.892H18.568v-45.8H30.946v45.8H49.514V0H18.568Z" transform="translate(477.75 192.79)" class="fill-yellow"></path>
+        <path id="Path_2" data-name="Path 2" d="M3950.113,0H3936.7V16.092h13.413v45.8h18.568v-45.8h13.4V0h-31.972Z" transform="translate(-3110.876 192.79)" class="fill-yellow"></path>
+        <path id="Path_3" data-name="Path 3" d="M3394.8,9.655V0h-14.474l-12.255,22.3V0H3349.5V61.892h18.568V31.937l15,29.956h13.988V50.469l-14.244-23.112Z" transform="translate(-2575.595 192.79)" class="fill-yellow"></path>
+        <path id="Path_4" data-name="Path 4" d="M1924.395,9.655V0h-14.474l-12.264,22.3V0h-18.568V22.449L1866.746,0h-14.474V9.655l11.981,17.7L1850,50.469V61.892h14l15.093-30.124V61.892h18.568V31.937l15,29.956h14V50.469l-14.253-23.112Z" transform="translate(-1208.677 192.79)" class="fill-yellow"></path>
+        <path id="Path_5" data-name="Path 5" d="M2808.568,37.3h14.226V21.211h-14.226V16.092h17.339V0H2790V61.892h37.347V45.8h-18.78Z" transform="translate(-2065.565 192.79)" class="fill-yellow"></path>
+        <path id="Path_6" data-name="Path 6" d="M1273.446,0s.079.5.186,1.37L1273.446,0h-12.379c-9.62,2.113-14.421,6.534-18.568,15.712V45.8c3.324,8.267,9.5,14.1,18.568,16.092h12.379l.283-3.519c-.132,2.131-.283,3.519-.283,3.519,8.063-2.246,14.907-8.709,18.568-16.631V16.092C1288.654,7.692,1283.765,3.165,1273.446,0Zm-12.379,45.8c1.2-11.494,1.4-18.223,0-29.708h12.379c-2.387,11.989-1.689,17.622,0,29.708Z" transform="translate(-654.891 192.79)" class="fill-yellow"></path>
+        <path id="Path_7" data-name="Path 7" d="M4536.446,0s.08.5.186,1.37L4536.446,0h-12.379c-9.62,2.113-14.421,6.534-18.568,15.712V45.8c3.325,8.267,9.5,14.1,18.568,16.092h12.379l.282-3.519c-.133,2.131-.282,3.519-.282,3.519,8.063-2.246,14.907-8.709,18.567-16.631V16.092C4551.663,7.692,4546.764,3.165,4536.446,0Zm-12.379,45.8c1.2-11.494,1.4-18.223,0-29.708h12.379c-2.387,11.989-1.689,17.622,0,29.708Z" transform="translate(-3629.383 192.79)" class="fill-yellow"></path>
+        <path id="Path_8" data-name="Path 8" d="M680.8,0H652.5V61.892h18.568V50.319H680.8l.124-1.538c-.071.973-.124,1.538-.124,1.538,8.064-2.246,14.907-8.709,18.568-16.631V16.1C696.01,7.692,691.121,3.165,680.8,0Zm-9.735,34.227V16.092H680.8a67.7,67.7,0,0,0,0,18.134Z" transform="translate(-117.057 192.79)" class="fill-yellow"></path>
+        <path id="Path_9" data-name="Path 9" d="M5167.3,0H5139V61.892h18.568V50.319h9.735l.124-1.538c-.071.973-.124,1.538-.124,1.538,8.063-2.246,14.907-8.709,18.567-16.631V16.1C5182.51,7.692,5177.621,3.165,5167.3,0Zm-9.735,34.227V16.092h9.735a67.634,67.634,0,0,0,0,18.134Z" transform="translate(-4206.871 192.79)" class="fill-yellow"></path>
+      </g>
+    </symbol>
+    <symbol id="ruble" viewBox="0 0 32.366 42.254">
+      <path id="Path_27" data-name="Path 27" d="M31.166,6.475a9.814,9.814,0,0,0-2.737-3.8A10.59,10.59,0,0,0,23.957.408,21.733,21.733,0,0,0,19.077,0H2.679V19.566H0v4.391H2.679v1.782H0V30.13H2.679V42.254H7.384V30.13H24.225V25.739H7.384V23.957H19.45c4.531,0,7.78-1.269,9.795-3.727a11.351,11.351,0,0,0,3.121-8.024A16.96,16.96,0,0,0,31.166,6.475ZM24.982,17.563c-1.176,1.351-2.737,2-5.474,2H7.384V4.5H19.426a13.9,13.9,0,0,1,3.948.373,6.5,6.5,0,0,1,2.667,2.5,9.365,9.365,0,0,1,1.025,4.507A8.767,8.767,0,0,1,24.982,17.563Z"></path>
+    </symbol>
+    <symbol id="triangle1-mobile" viewBox="0 0 312 63.041">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #ff0;
+            opacity: 0.8;
+          }
+        </style>
+      </defs>
+      <path id="Path_50" data-name="Path 50" d="M3856.756,225.182l-312-.017,121.757-63.024Z" transform="translate(-3544.756 -162.141)" class="cls-1"></path>
+    </symbol>
+    <symbol id="triangle2-mobile" viewBox="0 0 312.232 216">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #f61688;
+            opacity: 0.8;
+          }
+        </style>
+      </defs>
+      <path id="Path_51" data-name="Path 51" d="M5201,1337.586l252.227-215.994H5457l56.232,216Z" transform="translate(-5201 -1121.592)" class="cls-1"></path>
+    </symbol>
+    <symbol id="triangle3" viewBox="0 0 654.168 210.818">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #ff0;
+            opacity: 0.8;
+          }
+        </style>
+      </defs>
+      <path id="Path_14" data-name="Path 14" d="M2331.559,2524.182l-210.168,210.727-444,.091,649.264-210.818Z" transform="translate(-1677.391 -2524.182)" class="cls-1"></path>
+    </symbol>
+    <symbol id="triangle4" viewBox="0 0 822.8 633.1">
+      <style>
+        .st0 {
+          opacity: .8;
+          fill: #f61688;
+          enable-background: new
+        }
+      </style>
+      <path d="M822.8 0L0 249.1h444v384L822.7 3.4V.1z" class="st0"></path>
+    </symbol>
+    <symbol id="vk" viewBox="0 0 32.6 32.6">
+      <path d="M27.6,0H5C2.2,0,0,2.2,0,5v22.6c0,2.8,2.2,5,5,5h22.6c2.8,0,5-2.2,5-5V5C32.6,2.2,30.3,0,27.6,0z M25.8,19.4L25.8,19.4        c0.9,0.8,1.8,1.7,2.6,2.6c0.4,0.4,0.7,0.9,0.9,1.3c0.4,0.7,0,1.4-0.6,1.5h-3.8c-0.9,0.1-1.8-0.3-2.4-1c-0.5-0.5-1-1.1-1.5-1.7        c-0.2-0.2-0.4-0.4-0.7-0.6c-0.3-0.3-0.8-0.3-1.1,0.1c-0.1,0.1-0.1,0.2-0.1,0.2c-0.3,0.6-0.4,1.2-0.4,1.8c0,0.9-0.3,1.1-1.2,1.2        c-1.9,0.2-3.8-0.3-5.5-1.2c-1.5-0.9-2.7-2.1-3.7-3.5c-1.9-2.7-3.6-5.6-4.9-8.7c-0.3-0.7-0.1-1,0.7-1.1c1.3,0,2.5,0,3.7,0        c0.5,0,0.9,0.3,1,0.8c0.7,1.7,1.5,3.2,2.5,4.7c0.3,0.4,0.6,0.8,1,1.1c0.2,0.2,0.6,0.2,0.8,0c0.1-0.1,0.1-0.2,0.2-0.3        c0.1-0.3,0.2-0.6,0.2-1c0.1-1.2,0.1-2.3-0.1-3.5c0-0.7-0.6-1.2-1.2-1.3c-0.4-0.1-0.3-0.2-0.1-0.4c0.3-0.4,0.7-0.6,1.2-0.6h4.3        c0.7,0.1,0.8,0.4,0.9,1.1v4.8c0,0.3,0.1,1.1,0.6,1.2c0.4,0.1,0.6-0.2,0.9-0.4c1-1.1,1.8-2.4,2.4-3.7c0.3-0.6,0.5-1.2,0.8-1.8        c0.1-0.4,0.5-0.7,1-0.7h4.2c0.1,0,0.2,0,0.4,0c0.7,0.1,0.9,0.4,0.7,1.1c-0.4,1-1,2-1.7,2.9c-0.7,1-1.4,1.9-2.1,2.9        C24.9,18.2,25,18.6,25.8,19.4z"></path>
+    </symbol>
+  </svg>
+  <!--.row_row-->
+  <!--  .container-->
+  <!--    .row-->
+  <!--      while n < 13-->
+  <!--        .col= n++-->
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__navs">
+          <div class="page-header__burger">
+            <button type="button" class="btn btn--burger burger"><span class="burger__line"></span></button>
+          </div>
+          <nav class="page-header__main-menu">
+            <ul class="page-nav">
+              <li class="page-nav__item"><a href="#about" class="page-nav__link">О конфе</a></li>
+              <li class="page-nav__item"><a href="#spotlights" class="page-nav__link">Прожекторы</a></li>
+              <li class="page-nav__item"><a href="#sprints" class="page-nav__link">Спринты</a></li>
+              <li class="page-nav__item"><a href="#ticket2" class="page-nav__link">Регистрация</a></li>
+              <li class="page-nav__item"><a href="#contact" class="page-nav__link">Связаться</a></li>
+            </ul>
+          </nav>
+          <div class="page-header__social">
+            <ul class="list-social">
+              <li class="list-social__item"><a href="" class="list-social__link">facebook
+                  <svg class="icon icon--facebook">
+                    <use xlink:href="#facebook"></use>
+                  </svg></a></li>
+              <li class="list-social__item"><a href="" class="list-social__link">Вконтакте
+                  <svg class="icon icon--vk">
+                    <use xlink:href="#vk"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-header__navs-mobile">
+          <div class="page-header__row">
+            <div class="preview-event__title-img preview-event__title-img--mobile">
+              <svg>
+                <use xlink:href="#projector"></use>
+              </svg>
+            </div>
+            <div class="page-header__burger">
+              <button type="button" class="btn btn--burger burger"><span class="burger__line"></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="page-header__preview row">
+          <section class="preview-event col-md-7 offset-md-3">
+            <div class="preview-event__inner-section">
+              <div class="preview-event__title">
+                <h1 class="visually-hidden">Прожектор</h1>
+                <div class="preview-event__title-img">
+                  <svg>
+                    <use xlink:href="#projector"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="preview-event__descr">Первая профессиональная конференция об управлении проектами в Ижевске</div>
+              <div class="preview-event__inner">
+                <div class="preview-event__date">
+                  <div class="preview-event__num">10</div>
+                  <div class="preview-event__month-year">
+                    <div class="preview-event__month">ноября</div>
+                    <div class="preview-event__year">2018</div>
+                  </div>
+                </div>
+                <div class="preview-event__place">Park INN</div>
+              </div>
+            </div>
+            <div class="preview-event__laser laser">
+              <div class="preview-event__bg-triangle"></div>
+              <div class="preview-event__bg-triangle preview-event__bg-triangle--mobile"></div>
+            </div>
+            <div class="preview-event__background-image"></div>
+          </section>
+          <div class="page-header__age">16+</div>
+        </div>
+      </div>
+    </header>
+    <main class="main-page">
+      <section id="about" class="page-for">
+        <div class="page-for__message">
+          <h1 class="page-for__title">Для проектных менеджеров любых отраслей: ИТ, строительство, госорганы, промышленность и не только.</h1>
+          <div class="page-for__text">
+            <p><span class="page-for__icon" aria-label="Первый элемент"></span>Встретитесь с настоящими практиками проектного менеджмента;</p>
+            <p><span class="page-for__icon" aria-label="Второй элемент"></span>Научитесь анализировать неудачи и находить выход из сложных ситуаций;</p>
+            <p><span class="page-for__icon" aria-label="Третий элемент"></span>Обсудите собственный проектный опыт.</p>
+          </div>
+        </div>
+        <div class="page-for__think">
+          <div class="think">
+            <div class="think__inner">
+              <div class="think__message">Без бизнес-тренеров и историй успеха. Только настоящий опыт и вся правда о проектах, которой не смотрят в глаза</div>
+            </div>
+            <div class="think__laser" style="width: 822px; height: 633px; overflow: hidden;">
+              <div class="think__bg-triangle"></div>
+              <div class="think__bg-triangle-mobile"></div>
+            </div>
+            <div class="think__background-image"></div>
+          </div>
+        </div>
+        <section class="main-form__wrap">
+          <h2 class="main-form__title">Регистрируйся</h2>
+          <form class="main-form" action="" method="post">
+            <label class="main-form__label">
+              <span class="main-form__description">Имя/Фамилия</span>
+              <input class="main-form__input" type="text" name="name" required>
+            </label>
+            <label class="main-form__label">
+              <span class="main-form__description">E-mail</span>
+              <input class="main-form__input" type="email" name="email" required>
+            </label>
+            <label class="main-form__label">
+              <span class="main-form__description">Должность</span>
+              <input class="main-form__input" type="text" name="position" required>
+            </label>
+            <label class="main-form__label">
+              <span class="main-form__description">Компания</span>
+              <input class="main-form__input" type="text" name="company">
+            </label>
+            <button class="main-form__button" type="submit">Стать Прожектором!</button>
+          </form>
+        </section>
+      </section>
+      <section id="spotlights" class="persons">
+        <div class="persons__inner-section">
+          <div class="persons__description">
+            <h1 class="persons__title">Прожекторы</h1>
+            <p class="persons__paragraph">Спикеры конференции — это руководители компаний и бизнес-направлений, которые редко выступают перед аудиторией в Ижевске. Это не авторы книг, не гастролеры-коучи с авторскими тренингами, а настоящие практики, развивающие проекты в своем бизнесе.</p>
+          </div>
+          <div class="persons__list">
+            <div class="persons-list"><a href="0" class="persons-list__item persons-list__item--active">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_1.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Арутр<br>Ахметгалин</div></a><a href="1" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_2.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Дмитрий<br>Плетнев</div></a><a href="2" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_3.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Павел<br>Овчинников</div></a><a href="3" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_4.png" alt="Павел Овчинников" class="persons-list__img"></div>
+                <div class="persons-list__name">Максим<br>Галимов</div></a><a href="4" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_5.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Павел<br>Иванов</div></a><a href="5" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_6.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Алексей<br>Трефилов</div></a><a href="6" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_7.png" alt="Максим Галим" class="persons-list__img"></div>
+                <div class="persons-list__name">Андрей<br>Прокошев</div></a><a href="7" class="persons-list__item">
+                <div class="persons-list__inner-img"><img src="./images/persons/persons-item_8.png" alt="Максим Галим" class="persons-list__img"></div>
+              <div class="persons-list__name">Иван<br>Лощенов</div></a><a href="8" class="persons-list__item"></a>
+            </div>
+          </div>
+          <div class="persons__info">
+            <div class="person-info">
+              <div class="person-info__list">
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Артур Ахметгалин </h3>
+                    <p class="person-info__position">Руководитель проектного офиса ЦВТ</p>
+                    <p class="person-info__experience">
+                      Пришёл в IT контент-менеджером. Потом стал просто менеджером. Потом руководителем всех проектных менеджеров и человеком, отвечающим в компании за разработку внутренних инструментов, автоматизацию и оптимизацию бизнеса.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Коммуникации</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_1.png" class="person-info__img person-info__img--one">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Дмитрий Плетнев</h3>
+                    <p class="person-info__position">Исполнительный директор ЦВТ</p>
+                    <p class="person-info__experience">
+                      Более 15 лет опыта работы в ИТ, последние 10 в ЦВТ. Признанный эксперт в формировании команд и проектном управлении.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Коммуникации</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_2.png" class="person-info__img person-info__img--two">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Павел Овчинников</h3>
+                    <p class="person-info__position">Директор по маркетингу ELMA</p>
+                    <p class="person-info__experience">
+                      В маркетинге ИТ-продуктов с 2006 года. Попробовал себя в роли маркетолога, пиарщика, руководителя портала и журналиста. Управляет маркетинговыми проектами с 2013 года.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Управление рисками</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_3.png" class="person-info__img person-info__img--three">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Максим Галимов</h3>
+                    <p class="person-info__position">директор по продукту БИТ «Мастер»</p>
+                    <p class="person-info__experience">
+                      В разработке и продвижении тиражных
+                      B2B-продуктов с 1999 года. Опыт развития ИТ-продуктов
+                      и выполнения проектов на рынках России, СНГ, Европы, США.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Коммуникации</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_4.png" class="person-info__img person-info__img--four">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Павел Иванов</h3>
+                    <p class="person-info__position">Руководитель проектов ELMA, Тимлид</p>
+                    <p class="person-info__experience">
+                      ИТ образование в сфере защиты информации. В компании ЭЛМА 5 лет управления и курирования  проектами внедрения. Опыт управления проектами в 30к+ часов. Эксперт в отрасли банковских и сервисных бизнес-процессов.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Управление бюджетами</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_5.png" class="person-info__img person-info__img--five">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Алексей Трефилов</h3>
+                    <p class="person-info__position">Директор ELMA</p>
+                    <p class="person-info__experience">
+                      С 2011 года работает в ИТ-отрасли. Руководит проектными подразделениями, курирует проекты автоматизации бизнеса на предприятиях ключевых заказчиков.
+                      С 2016 года занимает должность директора компании ELMA.
+
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Управление рисками</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_6.png" class="person-info__img person-info__img--six">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Андрей Прокошев</h3>
+                    <p class="person-info__position">Руководитель по ИТ в УДС Групп</p>
+                    <p class="person-info__experience">
+                      Кандидат экономических наук. Строил карьеру в менеджменте различных предприятий Удмуртии. С 2010 года — на госслужбе. Был первым заместителем министра информатизации связи Удмуртской Республики и руководителем Агентства информатизации и связи Удмуртской Республики. В данный момент снова в коммерческой области.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Управление рисками</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_7.png" class="person-info__img person-info__img--seven">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <div class="person-info__item">
+                  <div class="person-info__description">
+                    <h3 class="person-info__title">Иван Лощенов</h3>
+                    <p class="person-info__position">Коммерческий директор Nutnet </p>
+                    <p class="person-info__experience">
+                      В проектах с 2008 года: создал и управлял дизайн-студией, продавал, управлял проектами. С начала 2017 года работает в роли коммерческого директора Nutnet.
+                    </p>
+                    <p class="person-info__skills">Эксперт в спринте Управление бюджетами</p>
+                  </div>
+                  <div data-aos="fade-up" class="person-info__inner-img"><img src="./images/persons/persons-item_8.png" class="person-info__img person-info__img--eight">
+                    <div class="person-info__background-triangle"></div>
+                    <div class="person-info__background-triangle-mobile"></div>
+                  </div>
+                </div>
+                <!--.person-info__navigation-->
+                <!--  button.btn.btn--nav-person-info(type="button") Листать назад-->
+                <!--  button.btn.btn--nav-person-info(type="button") Листать вперед-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="sprints" class="section" style="margin-bottom: 71px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="sprints">
+              <h2 class="h1 h_center">Спринты</h2>
+              <p class="sprints__lead">
+                Мы поделили всю программу на спринты. Спринт — это мини секция с 2-3 докладами, объединенными общей проблематикой. Каждый спринт венчается маленькой панельной дискуссией с докладчиками и экспертами.
+              </p>
+              <ul class="sprints__list">
+                <li class="sprints__item sprints__item--only-description"><span class="sprints__time sprints__time--mr20px">9:00</span><span class="sprints__info">Регистрация, приветственный кофе</span></li>
+                <li class="sprints__item sprints__item--first">
+                  <div class="sprints__description sprints__description--first">
+                    <p class="sprints__title-time visible-mobile">10:00–11:00</p>
+                    <h3>Коммуникации в проекте</h3>
+                    <p>
+                      что бывает, когда все говорят на разных языках и никто никого не слушает
+
+                    </p>
+                    <p class="sprints__list-title visible-mobile"> Участники:
+                      </p>
+                    <ul class="sprints__members-list visible-mobile">
+                      <li>Максим Галимов,</li>
+                      <li>Дмитрий Плетнев,</li>
+                      <li>Артур Ахметгалин</li>
+                      </ul>
+                    <p></p>
+                  </div>
+                  <div class="sprints__members">
+                    <p class="sprints__title-time">10:00–11:00</p>
+                    <p class="sprints__list-title">Участники:</p>
+                    <ul class="sprints__members-list">
+                      <li>Максим Галимов,</li>
+                      <li>Дмитрий Плетнев,</li>
+                      <li>Артур Ахметгалин</li>
+                    </ul>
+                  </div>
+                  <div class="sprints__laser sprints__laser--1">
+                    <div class="sprints__bg-triangle sprints__bg-triangle--1"></div>
+                    <div class="sprints__bg-triangle-mobile sprints__bg-triangle-mobile--1"></div>
+                  </div>
+                </li>
+                <li class="sprints__item sprints__item--second">
+                  <div class="sprints__members sprints__members--second">
+                    <p class="sprints__title-time">11:00–12:00</p>
+                    <p class="sprints__list-title">Участники:</p>
+                    <ul class="sprints__members-list">
+                      <li>Максим Галимов,</li>
+                      <li>Дмитрий Плетнев</li>
+                    </ul>
+                  </div>
+                  <div class="sprints__description sprints__description--second sprints__description--pink">
+                    <p class="sprints__title-time visible-mobile">12:00–12:30</p>
+                    <h3>Управление бюджетом</h3>
+                    <p>
+                      интересные истории о проблемах с бюджетом и ошибках в планировании ресурсов
+                    </p>
+                    <p class="sprints__list-title visible-mobile"> Участники:
+                      </p><ul class="sprints__members-list visible-mobile">
+                        <li>Иван Лощенов,</li>
+                        <li>Павел Иванов</li>
+                      </ul>
+                    <p></p>
+                  </div>
+                  <div class="sprints__laser sprints__laser--2">
+                    <div class="sprints__bg-triangle sprints__bg-triangle--2"></div>
+                  </div>
+                </li>
+                <li class="sprints__item sprints__item--only-description"><span class="sprints__time sprints__time--mr20px">12:00–12:30</span><span class="sprints__info">Кофе-брейк</span></li>
+                <li class="sprints__item sprints__item--four">
+                  <div class="sprints__description sprints__description--first">
+                    <p class="sprints__title-time visible-mobile">12:30–13:30</p>
+                    <h3>Управление рисками</h3>
+                    <p>истории про то, что никогда такого не было и вот опять</p>
+                    <p class="sprints__list-title visible-mobile">Участники:
+                      </p><ul class="sprints__members-list visible-mobile">
+                        <li>Павел Овчинников,</li>
+                        <li>Андрей Прокошев,</li>
+                        <li>Алексей Трефилов</li>
+                      </ul>
+                    <p></p>
+                  </div>
+                  <div class="sprints__members">
+                    <p class="sprints__title-time">12:30–13:30</p>
+                    <p class="sprints__list-title">Участники:</p>
+                    <ul class="sprints__members-list">
+                      <li>Никита Уржумов,</li>
+                      <li>Рустем Фатхуллин,</li>
+                      <li>Григорий Коган</li>
+                    </ul>
+                  </div>
+                  <div class="sprints__laser sprints__laser--4">
+                    <div class="sprints__bg-triangle sprints__bg-triangle--4"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-form__wrap main-form__wrap--ivory">
+      <h2 class="main-form__title main-form__title--white">Регистрируйся</h2>
+      <form class="main-form" action="" method="post">
+        <label class="main-form__label">
+          <span class="main-form__description main-form__description--ivory">Имя/Фамилия</span>
+          <input class="main-form__input main-form__input--ivory" type="text" name="name" required>
+        </label>
+        <label class="main-form__label">
+          <span class="main-form__description main-form__description--ivory">E-mail</span>
+          <input class="main-form__input main-form__input--ivory" type=email name="email" required>
+        </label>
+        <label class="main-form__label">
+          <span class="main-form__description main-form__description--ivory">Должность</span>
+          <input class="main-form__input main-form__input--ivory" type="text" name="position" required>
+        </label>
+        <label class="main-form__label">
+          <span class="main-form__description main-form__description--ivory">Компания</span>
+          <input class="main-form__input main-form__input--ivory" type="text" name="company">
+        </label>
+        <button class="main-form__button main-form__button--ivory" type="submit">Стать Прожектором!</button>
+      </form>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="h1 h_center">Связаться</h2>
+        <div class="vcard-wrapper">
+          <figure class="vcard">
+            <div class="vcard__img"><img src="images/all/01.jpg"></div>
+            <figcaption class="vcard__description">
+              <h4 class="vcard__title">Павел Овчинников</h4>
+              <div class="vcard__text">Программа и выступления</div><a href="tel:+76228649715" class="vcard__phone">+7 622 864 97 15</a>
+            </figcaption>
+          </figure>
+          <figure class="vcard">
+            <div class="vcard__img"><img src="images/all/02.jpg"></div>
+            <figcaption class="vcard__description">
+              <h4 class="vcard__title">Юлия<br class="vcard__br"> Онегова</h4>
+              <div class="vcard__text">Партнерство и как попасть</div><a href="tel:+75126648848" class="vcard__phone">+7 512 664 88 48</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">&copy; 2018 ELMA</footer>
+    <div class="popup">
+      <div class="popup__content"><img src="./images/yandex-kassa.jpg" alt="">
+        <div class="popup__close">
+          <div class="popup__close-line"></div>
+        </div>
+      </div>
+    </div>
+    <script src="plugins/jquery.js"></script>
+    <script src="plugins/slick.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/form.js"></script>
+  </div>
+</body></html>
