@@ -4192,4 +4192,16 @@ svg {
     left: 0
 }
 
+.main-sponsor {
+    max-width: 974px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-sponsor__img {
+    width: 200px;
+    margin-left: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */
