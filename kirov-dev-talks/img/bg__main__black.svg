@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        stroke: rgba(250, 250, 250, 0.15);
+        stroke: rgba(250, 250, 250, 0.05);
         stroke-width: 2px;
       }
 

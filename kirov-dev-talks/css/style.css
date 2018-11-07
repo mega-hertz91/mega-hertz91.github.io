@@ -43,7 +43,7 @@ a {
     background-image: url('../img/bg__main.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2d2ff0;
+    background-color: #2123e4;
     padding-bottom: 55px;
 }
 
@@ -160,7 +160,7 @@ a {
 }
 
 .main-banner__title--hidden {
-    color: rgba(250, 250, 250, 0.05);
+    color: #2D2FF0;
 }
 
 .main-banner__description {
@@ -173,7 +173,7 @@ a {
     -webkit-animation-name: animated-text;
     animation-name: animated-text;
     -webkit-animation-duration: 0.85s;
-    animation-duration: 0.85s;
+    animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
@@ -372,11 +372,12 @@ a {
 
 .what-kirovdev::before {
     position: absolute;
-    content: '?';
-    font-family: 'Chava', Arial, sans-serif;
-    font-size: 353px;
-    color: #2d2ff0;
-    top: 335px;
+    content: '';
+    background-image: url('../img/bober.svg');
+    background-repeat: no-repeat;
+    width: 263px;
+    height: 263px;
+    top: 250px;
     right: 112px;
 }
 
@@ -484,7 +485,7 @@ a {
     background-image: url('../img/bg__main.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2d2ff0;
+    background-color: #2123e4;
 }
 
 .organisations__wrap {
@@ -695,7 +696,7 @@ a {
 
 .main-form__button {
     display: inline-block;
-    background-color: #2d2ff0;
+    background-color: #2123e4;
     font-family: 'Chava', Arial, sans-serif;
     font-size: 25px;
     line-height: 36px;
@@ -724,7 +725,7 @@ a {
     background-image: url('../img/bg__main.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2d2ff0;
+    background-color: #2123e4;
 }
 
 .main-footer__wrap {
