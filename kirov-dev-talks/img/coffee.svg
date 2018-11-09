@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163 164.971">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2123e4;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #2123e4;
+        stroke-width: 16px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_50" data-name="Group 50" transform="translate(-1003 -3749)">
+    <g id="Group_48" data-name="Group 48" transform="translate(393 2532.029)">
+      <rect id="Rectangle_260" data-name="Rectangle 260" class="cls-1" width="16" height="16" transform="translate(610 1216.971)"/>
+      <rect id="Rectangle_272" data-name="Rectangle 272" class="cls-1" width="16" height="16" transform="translate(654 1216.971)"/>
+      <rect id="Rectangle_261" data-name="Rectangle 261" class="cls-1" width="16" height="16" transform="translate(626 1232.971)"/>
+      <rect id="Rectangle_273" data-name="Rectangle 273" class="cls-1" width="16" height="16" transform="translate(670 1232.971)"/>
+      <rect id="Rectangle_271" data-name="Rectangle 271" class="cls-1" width="16" height="16" transform="translate(642 1248.971)"/>
+      <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="16" height="16" transform="translate(686 1248.971)"/>
+      <rect id="Rectangle_266" data-name="Rectangle 266" class="cls-1" width="16" height="45" transform="translate(654 1304.971)"/>
+      <g id="Rectangle_267" data-name="Rectangle 267" class="cls-2" transform="translate(625.216 1277.255)">
+        <rect class="cls-3" width="104.078" height="104.686"/>
+        <rect class="cls-4" x="8" y="8" width="88.078" height="88.686"/>
+      </g>
+      <rect id="Rectangle_268" data-name="Rectangle 268" class="cls-1" width="16" height="45" transform="translate(757 1304.971)"/>
+      <rect id="Rectangle_269" data-name="Rectangle 269" class="cls-1" width="16" height="45" transform="translate(725 1349.971) rotate(-90)"/>
+      <rect id="Rectangle_270" data-name="Rectangle 270" class="cls-1" width="16" height="43" transform="translate(714 1304.971) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

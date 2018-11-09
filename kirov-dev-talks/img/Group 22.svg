@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 415">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #2123e4;
+      }
+
+      .cls-1 {
+        font-size: 346px;
+        font-family: Chava-Regular, Chava;
+      }
+    </style>
+  </defs>
+  <g id="Group_22" data-name="Group 22" transform="translate(-966 -1181)">
+    <text id="_" data-name="?" class="cls-1" transform="translate(966 1527)"><tspan x="0" y="0">?</tspan></text>
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-2" width="42" height="34" transform="matrix(1, 0.017, -0.017, 1, 1090.553, 1432.638)"/>
+  </g>
+</svg>
