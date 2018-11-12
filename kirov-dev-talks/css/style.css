@@ -214,9 +214,6 @@ a {
     font-size: 25px;
     line-height: 36px;
     padding: 25px 50px;
-    -webkit-transition: 0.1s;
-    -o-transition: 0.1s;
-    transition: 0.1s;
 }
 
 .main-banner__button:hover {
