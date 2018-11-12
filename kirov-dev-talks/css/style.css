@@ -210,11 +210,9 @@ a {
 .main-banner__button {
     position: relative;
     display: inline-block;
-    background-color: white;
     font-family: 'Chava', Arial, sans-serif;
     font-size: 25px;
     line-height: 36px;
-    color: black;
     padding: 25px 50px;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
@@ -228,41 +226,46 @@ a {
 }
 
 .main-banner__animate-two {
-    opacity: 0;
-    animation-name: button-animate-1;
-    animation-duration: 5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:inset 0 0 0 5px white;
+    color: white;
+    animation-name: button-reg-1;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: step-end;
 }
 
 .main-banner__animate-one {
     position: absolute;
-    left: 20%;
-    top: 25px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    opacity: 1;
-    animation-name: button-animate;
-    animation-duration: 5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    animation-name: button-reg;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: steps(1, end);
+    animation-timing-function: step-end;
 }
 
-@keyframes button-animate {
+@keyframes button-reg {
     0% {
         opacity: 1;
     }
 
-    30% {
-        opacity: 0;
-    }
-
     50% {
         opacity: 0;
-    }
-
-    70% {
-        opacity: 1;
     }
 
     100% {
@@ -270,21 +273,13 @@ a {
     }
 }
 
-@keyframes button-animate-1 {
+@keyframes button-reg-1 {
     0% {
         opacity: 0;
     }
 
-    30% {
-        opacity: 1;
-    }
-
     50% {
         opacity: 1;
-    }
-
-    70% {
-        opacity: 0;
     }
 
     100% {
@@ -541,6 +536,13 @@ a {
     margin-bottom: 70px;
     max-width: 796px;
     color: #ff15e8;
+}
+
+.speakers__speaker-name-up {
+    font-family: 'Chava', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    display: block;
 }
 
 .organisations {
@@ -1074,6 +1076,11 @@ a {
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 30px;
+    }
+
+    .speakers__speaker-name-up {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .organisations {
