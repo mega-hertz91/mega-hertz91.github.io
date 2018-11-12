@@ -232,6 +232,7 @@ a {
     animation-name: button-animate-1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-timing-function: step-end;
 }
 
 .main-banner__animate-one {
@@ -244,6 +245,7 @@ a {
     animation-name: button-animate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-timing-function: steps(1, end);
 }
 
 @keyframes button-animate {
