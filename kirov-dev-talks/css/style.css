@@ -287,6 +287,17 @@ a {
     }
 }
 
+@keyframes animate-description {
+    0% {
+        max-width: 0;
+        white-space: nowrap;
+    }
+
+    50% {
+
+    }
+}
+
 .main-banner__link-description {
     position: relative;
     font-size: 25px;
