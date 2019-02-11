@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-4{fill:#fff}.cls-3,.cls-4{stroke:none}.cls-5{filter:url(#Path_1)}
+        </style>
+        <filter id="Path_1" width="50.071" height="50.071" x="6" y="13" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_3" data-name="Group 3" transform="translate(-898 -824)">
+        <g id="Path_2" class="cls-1" data-name="Path 2">
+            <path d="M35.5 0A35.5 35.5 0 1 1 0 35.5 35.5 35.5 0 0 1 35.5 0z" class="cls-3" transform="translate(898 824)"/>
+            <path d="M35.5 4a31.4 31.4 0 0 0-22.274 9.226A31.4 31.4 0 0 0 4 35.5a31.4 31.4 0 0 0 9.226 22.274A31.4 31.4 0 0 0 35.5 67a31.4 31.4 0 0 0 22.274-9.226A31.4 31.4 0 0 0 67 35.5a31.4 31.4 0 0 0-9.226-22.274A31.4 31.4 0 0 0 35.5 4m0-4C55.106 0 71 15.894 71 35.5S55.106 71 35.5 71 0 55.106 0 35.5 15.894 0 35.5 0z" class="cls-4" transform="translate(898 824)"/>
+        </g>
+        <g class="cls-5" transform="translate(898 824)">
+            <path id="Path_1-2" d="M0 0h22.677v22.677z" class="cls-2" data-name="Path 1" transform="rotate(45 -7.415 46.969)"/>
+        </g>
+    </g>
+</svg>
