@@ -7,7 +7,8 @@
         var nowPosition = window.pageYOffset;
 
         //if (nowPosition > 300) {
-        body.style.backgroundPositionY = '' + ((nowPosition + 600) / 200)  + '%'
+        console.log(body.style.backgroundPositionY);
+        body.style.backgroundPositionY = '' + ((nowPosition + 600) / 115)  + '%';
         //}
     };
 
